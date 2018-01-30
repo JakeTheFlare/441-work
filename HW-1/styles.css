@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
   padding: 0;
   margin: 0;
-  background-image: url("./imgs/hero_background.gif");
+  background-image: url("./imgs/hero_background.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,19 +12,26 @@ body {
 h1 {
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 40pt;
+  font-size: 35pt;
   font-variant: small-caps;
   text-decoration: underline;
-  color: gray;
+  color: black;
   text-align: center;
 }
 
 h2 {
   font-family: sans-serif;
   font-weight: 400;
-  font-size: 22pt;
+  font-size: 25pt;
   font-variant: small-caps;
-  color: gray;
+  color: black;
+  text-align: center;
+}
+
+a {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
   text-align: center;
 }
 
@@ -42,51 +49,99 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   border-style: solid;
-  border-width: 15px;
-  border-color: White;
+  border-width: 7px;
+  border-color: #515151;
   width: 100%;
   height: 100vh;
 }
 
 .title {
   text-align: center;
-  margin: 0;
-  background-color: black;
-  opacity: 1.0;
-  margin-top: 255pt;
-  margin-right: 10pt;
-  float: right;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  margin: auto;
+  padding-top: 0.25em;
+  padding-bottom: 1.25em;
   padding-right: 0.5em;
   padding-left: 0.5em;
+  background-color: silver;
   width: 55%;
-  border-top-left-radius: 2.3:
+  border-style: solid;
+  border-width: 7px;
+  border-color: #515151;
 }
 
 .nav {
+  font-size: 20pt;
+  font-variant: small-caps;
+  text-decoration: none;
+  display: inline-block;
+  word-spacing: 0.55em;
+}
 
+.nav a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav a:hover {
+  background-color: #444444;
 }
 
 .information {
   margin: 25vh auto;
-  padding: 1em;
-  background-color: red;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: #0033D6;
   width: 55%;
-  height: 75vh;
+  height: auto;
   border-style: solid;
-  border-width: 15px;
-  border-color: White;
+  border-width: 7px;
+  border-color: #515151;
+  border-radius: 15px 0px 30px;
+  font-size: 21px;
+}
 
+.information a {
+  color: white;
+  font-size: 21px;
 }
 
 .add_info {
-  margin: 25vh auto;
+  text-align: center;
+  margin: auto;
   padding: 1em;
-  background-color: purple;
+  background-color: #1E6045;
   height: auto;
   width: 100%;
   border-style: solid;
-  border-width: 15px;
-  border-color: White;
+  border-width: 7px;
+  border-color: #515151;
 }
+
+@media (max-width: 865px) {
+    .hero {
+        min-height: 730px;
+    }
+    .hero .title {
+        font-size: 18pt;
+    }
+}
+
+@media (max-width: 585px) {
+    .hero {
+        min-height: 500px;
+        max-width: 50%;
+    }
+    .hero .title .nav {
+        font-size: 15pt;
+        margin: 0;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 445px) {
+    .hero .title .nav {
+        font-size: 12pt;
+    }
