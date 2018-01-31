@@ -132,7 +132,7 @@ a {
 @media (max-width: 585px) {
     .hero {
         min-height: 500px;
-        max-width: 50%;
+        min-width: auto;
     }
     .hero .title .nav {
         font-size: 15pt;

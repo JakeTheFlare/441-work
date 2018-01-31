@@ -6,7 +6,7 @@ Naturally as the first week of class, this week was pretty simple.  All I had to
 ## Work Process/ Cycle
 My strategy for this week was simple.  I started out by reading over all the lesson's contents at least once. Then I jumped right into my assignment.  Then I would work a little bit of free time where I could work on my homework, and if I got stuck on something during the work process, I would go over the site contents again to make sure I am getting everything right.  And finally, I looked over my work on multiple devices to make sure everything is running a-okay.
 
-`As I was working, I also had to review on some things like; RWD (Responsive Web Design), div classes, margins and paddings, etc.`
+`As I was working, I also had to review on some things I learned in the past like; RWD (Responsive Web Design), div classes, margins and paddings, etc.`
 
 ## Class Issues
 I actually did not have any issues at all for this week.
