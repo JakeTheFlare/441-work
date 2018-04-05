@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Jacob Williams">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title>HW-7</title>
+
+        <style>
+
+        .adventure_1 {
+            margin: 15px;
+            padding: 15px;
+        }
+
+        .adventure_2 {
+            margin: 15px;
+            padding: 15px;
+        }
+
+        .adventure_3 {
+            margin: 15px;
+            padding: 15px;
+        }
+
+        body {
+          font-family: 'Old_Englished_Boots';
+          background-color: #008000;
+        }
+
+        h1 {
+          font-size: 4em;
+          letter-spacing: 5px;
+        }
+
+        p {
+          font-size: 20pt;
+          letter-spacing: 5px;
+        }
+
+        img {
+          margin-bottom: 17px;
+        }
+
+        </style>
+
+    </head>
+    <body>
+
+          <div class="adventure_1">
+
+        <h1>Welcome to Medieval World</h1>
+
+            <p>You are a young boy living in the castle village with your family.  You are brave and loyal, but you also possess a great sense of humor.  You are also the son of a blacksmith, and your father would much appreciate it if you decide to walk in his footsteps.
+            It seems that there are multiple paths that you wish to take.</p>
+
+            <form id="choice1">
+
+            <p>What will you become when you grow up? <br />
+              <br />
+            <input type="radio" name="choice1" class="choice1" id="knight" /> Knight <br />
+            <input type="radio" name="choice1" class="choice1" id="blacksmith" /> Blacksmith <br />
+            <input type="radio" name="choice1" class="choice1" id="jester" /> Jester <br />
+
+            </p>
+
+            </form>
+
+          </div>
+
+          <div class="adventure_2" hidden="true">
+
+            <p>You have decided to go to the castle to sign up as a knight.  After years of vigorous training, you rose through the ranks and became the king’s captain.  Then one day, a ferocious dragon swooped over the castle gardens and kidnapped the princess!  You rode your steed toward the forbidden mountain, where the dragon’s lair lies in waiting!  You find the princess locked in a cage, and the dragon staring down at you with a fearsome glance!</p>
+
+            <form id="choice2">
+
+            <p>Which of these weapons will you use to fight this monster? <br />
+              <br />
+            <input type="radio" name="choice2" class="choice2" id="sword" /> Enchanted Sword <br />
+            <input type="radio" name="choice2" class="choice2" id="mace" /> Mace <br />
+
+            </p>
+
+            </form>
+
+              <img src="images/knight.jpg" title="Knight Picture" align="left" width="300" height="300">
+              <img src="images/mace.jpg" title="Mace Picture" align="right" width="300" height="300">
+              <img src="images/sword.jpg" title="Sword Picture" align="right" width="300" height="300">
+
+          </div>
+
+          <div class="adventure_3" hidden="true">
+
+            <p>After the many years of working alongside your father as an assistant blacksmith, you eventually became old and skilled enough to run the shop yourself.  Then one day, something tragic happened.  The princess had been kidnapped by an evil dragon!  The king has assigned you to craft an enchanted sword for his champion knight to use against the dragon.</p>
+
+            <form id="choice3">
+
+            <p>Which of these metals will you use to craft such a sword? <br />
+              <br />
+            <input type="radio" name="choice3" class="choice3" id="enchanted_metal" /> Enchanted Metal <br />
+            <input type="radio" name="choice3" class="choice3" id="rusty_metal" /> Rusty Metal <br />
+
+            </p>
+
+            </form>
+
+              <img src="images/shop.jpg" title="Blacksmith Shop Picture" align="left" width="450" height="300">
+              <img src="images/rusty_metal.jpg" title="Rusty Metal Picture" align="right" width="300" height="300">
+              <img src="images/enchanted_metal.jpg" title="Enchanted Metal Picture" align="right" width="300" height="300">
+
+          </div>
+
+          <div class="ending_1" hidden="true">
+
+            <p>You’re strong sense of humor has let you decide to become the castle jester.  Though you try your best to entertain the king and his princess daughter, you find that your jokes and playful antics aren’t as funny as you thought, and you are either scoffed at or having fruit or vegetables thrown in your face in annoyance.  Welcome to the miserable life of a jester pal…</p>
+            <img src="images/jester.jpg" title="Jester Picture" align="left" width="600" height="400">
+
+          </div>
+
+          <div class="ending_2" hidden="true">
+
+            <p>The dragon comes at you, trying to eat you whole!  You retaliate using your enchanted sword, completely beheading the monster.  The princess comes jumping out of her cage into your arms, giving you a well-deserved kiss!  Back at the castle, the king has granted you permission to marry his daughter, the two of you now rule the kingdom side by side, and you all live happily ever after.  The End</p>
+            <img src="images/ending.jpg" title="Ending Picture for the Knight" align="left" width="500" height="300">
+
+          </div>
+
+          <div class="ending_3" hidden="true">
+
+            <p>The dragon comes at you, trying to eat you whole!  You retaliate using your mace, only to knock out one of the monster’s teeth!  But that's not enough though.  The dragon only grows enraged and breathes it’s fearsome fire breath right at you.  Now all that’s left of you is nothing but charred bones and armor!  Too bad…</p>
+            <img src="images/dragon.gif" title="Dragon Animation" align="left" width="500" height="300">
+            <img src="images/ash.jpg" title="Pile of Ash Picture" align="right" width="500" height="300">
+
+          </div>
+
+          <div class="ending_4" hidden="true">
+
+            <p>You have used the Metal of Radiance to craft the enchanted sword.  With it, the knight was successful with his quest to rescue the princess, and slay the dragon.  As a reward, you were offered a job as the official royal blacksmith.  And as a result, you have been earned a better pay, a better house, and a family of your very own.  With that, you have become proud of the path you have chosen, thanks to your father, and you live happily ever after.  The End</p>
+            <img src="images/blacksmith.gif" title="Ending Animation for the Blacksmith" align="left" width="500" height="300">
+
+          </div>
+
+          <div class="ending_5" hidden="true">
+
+            <p>You were so fixated about crafting the perfect sword, you didn’t even realize that you used the old rusty metal sitting on your counter!  The knight’s attempts to save the princess failed, because he didn’t have the weapon needed to slay the beast!  And so, these were the last words you heard from your king,  “Off with his head!”</p>
+            <img src="images/rusty_sword.jpg" title="Rusty Sword Animation" align="left" width="500" height="300">
+            <img src="images/guillotine.jpg" title="Guillotine Picture" align="right" width="500" height="300">
+
+          </div>
+
+
+        <script src="./hw-7.js"></script>
+    </body>
+</html>
