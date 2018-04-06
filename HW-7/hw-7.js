@@ -1,4 +1,4 @@
-//Javascript variables for this project.
+//Javascript variables for the three main adventure sections.
 let beginning = document.querySelector( ".adventure_1" );
 let knight_path = document.querySelector( ".adventure_2" );
 let blacksmith_path = document.querySelector( ".adventure_3" );
@@ -57,7 +57,6 @@ function choice1() {
 }
 
 
-
 //This function will take place if the player chooses to be a knight, and, like in the beginning, it will change the text and background color depending on what choice the player makes.
 function choice2() {
 
@@ -80,6 +79,7 @@ function choice2() {
   }
 
 }
+
 
 //This function will take place if the player chooses to be a blacksmith, and, like in the beginning, it will change the text and background color depending on what choice the player makes.
 function choice3() {
